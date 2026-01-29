@@ -305,10 +305,10 @@ cd frontend && npm run typecheck
 
 ## 👤 Author
 
-Built by **[Your Name]** — Data Engineer passionate about building systems that turn raw data into actionable insights.
+Built by **[Abdulaziz Hussein]** — Software Engineer, passionate about building systems that turn raw data into actionable insights.
 
-- 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 [GitHub](https://github.com/yourusername)
+- 🔗 [LinkedIn](https://linkedin.com/in/abdulaziz-mohamed-hussein)
+- 🐙 [GitHub](https://github.com/abdul-09)
 - 📧 your.email@example.com
 
 ---
