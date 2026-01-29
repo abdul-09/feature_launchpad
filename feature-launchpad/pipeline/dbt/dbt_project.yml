@@ -1,0 +1,48 @@
+name: 'feature_launchpad'
+version: '1.0.0'
+config-version: 2
+
+profile: 'feature_launchpad'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  # Data quality thresholds
+  min_events_per_session: 1
+  max_session_duration_hours: 24
+  
+  # Feature flags
+  include_bot_traffic: false
+  
+  # Lookback windows
+  retention_window_days: 7
+  engagement_window_days: 30
+
+# Model configurations
+models:
+  feature_launchpad:
+    +materialized: view
+    
+    staging:
+      +materialized: view
+      +schema: staging
+      +tags: ['staging']
+    
+    marts:
+      +materialized: table
+      +schema: marts
+      
+      core:
+        +tags: ['core']
+      
+      engagement:
+        +tags: ['engagement', 'metrics']
