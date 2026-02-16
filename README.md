@@ -99,35 +99,6 @@ Feature Launchpad is a **production-grade data pipeline** that demonstrates how 
 
 ---
 
-## 💰 The Money Slide
-
-> **"Users who completed the configurator had a 50%+ higher probability of returning within 7 days"**
-
-This is the key insight that demonstrates feature impact:
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│           7-Day Return Rate: Feature Impact Analysis              │
-├──────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│                                          ┌─────────┐              │
-│                                          │         │              │
-│                                          │  45%    │  ← Completed │
-│                                          │         │    Quiz      │
-│                    ┌─────────┐           │         │              │
-│                    │         │           │         │              │
-│                    │  28%    │           │         │   🚀 +61%    │
-│                    │         │           │         │      LIFT    │
-│                    │         │           │         │              │
-│                    └─────────┘           └─────────┘              │
-│                  Did Not Complete      Completed Quiz             │
-│                                                                   │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-This directly backs claims like **"drove 50% boost in user engagement"** with quantifiable evidence.
-
----
 
 ## 🛠️ Tech Stack & Justification
 
@@ -158,7 +129,7 @@ This directly backs claims like **"drove 50% boost in user engagement"** with qu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/feature-launchpad.git
+git clone https://github.com/abdul-09/feature-launchpad.git
 cd feature-launchpad
 
 # Start all services
